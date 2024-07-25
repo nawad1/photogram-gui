@@ -8,6 +8,6 @@ Rails.application.routes.draw do
   post("/insert_photo_record/",{:controller => "photos", :action => "create"})
   post("/update_photo/:modify_id",{:controller => "photos", :action => "update"})
   post("/add_user",{:controller => "users", :action => "create"})
-  
+  post("/update_user/:modify_id",{:controller => "users", :action => "update"})
   
 end
